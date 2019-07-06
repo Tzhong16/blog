@@ -1,6 +1,6 @@
 #theme source: https://github.com/sergiokopplin/indigo
 # main text of home
-name: Zhijie Zhong
+name: Terence Zhong
 bio: A Man who develops software with coffee
 
 # twitter summary info
@@ -17,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://tzhong16.github.io/blog/
+url: https://tzhong16.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -40,7 +40,7 @@ facebook: zzhong16
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: terencezhong
+linkedin: terencezhong/
 # youtube: myyoutube
 # spotify: myspotify
 github: Tzhong16
