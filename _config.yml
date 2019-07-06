@@ -1,7 +1,6 @@
-#theme source: https://github.com/sergiokopplin/indigo
 # main text of home
-name: Terence Zhong
-bio: A Man who develops software with coffee
+name: John Doe
+bio: A Man who travels the world eating noodles
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -17,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://tzhong16.github.io/
+url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -31,36 +30,42 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-    shortname: mydisqus # enter this from your disqus account
-    categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: mydisqus # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: zzhong16
-# twitter: mytwitter
+facebook: myfacebook
+twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: terencezhong/
+# linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: Tzhong16
+github: mygithub
 # gitlab: mygitlab
 # lastfm: mylastfm
-stackoverflow: 10117937
+# stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: t.zhong16@gmail.com
+email: myemail@gmail.com
 
 authors:
-    terencezhong:
-        name: Terence Zhong
-        bio: A Man who develops software with coffee
+    johndoe:
+        name: John Doe
+        bio: A Man who travels the world eating noodles
         external-image: false
         picture: assets/images/profile.jpg
-        # twitter: johndoe
+        twitter: johndoe
+    jamesfoster:
+        name: James Foster
+        bio: A Man who develops software with coffee
+        external-image: false
+        picture: assets/images/james.jpg
+        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -97,11 +102,11 @@ show-author: true
 animation: true
 
 plugins:
-    - jekyll-seo-tag
-    - jekyll-gist
-    - jekyll-feed
-    - jemoji
-    - jekyll-admin
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
 
 jekyll-mentions:
     base_url: https://github.com
@@ -109,8 +114,7 @@ jekyll-mentions:
 compress_html:
     ignore:
         envs:
-            - development
-            - stage
+        - development
+        - stage
 
-exclude:
-    ['travis.sh', 'Rakefile', 'README.md', 'Gemfile', 'Gemfile.lock', 'FAQ.md']
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
