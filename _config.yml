@@ -17,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://tzhong16.github.io/blog/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -35,18 +35,18 @@ disqus:
     categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: zzhong16
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: terencezhong
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: Tzhong16
 # gitlab: mygitlab
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+stackoverflow: 10117937/mystackoverflow
 # quora: userquora
 # reddit: username
 medium: medium
@@ -55,18 +55,12 @@ medium: medium
 email: t.zhong16@gmail.com
 
 authors:
-    johndoe:
-        name: Zhijie Zhong
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
+    terencezhong:
+        name: Terence Zhong
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/profile.jpg
+        # twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
