@@ -8,6 +8,7 @@ tag:
     - markdown
     - elements
 star: true
+archives: true
 category: archive
 author: johndoe
 description: Markdown summary with different options

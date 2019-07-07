@@ -9,6 +9,7 @@ tag:
     - dom
 star: true
 category: archive
+archives: true
 author: terence
 description: Introduction of dom manipulation
 ---
