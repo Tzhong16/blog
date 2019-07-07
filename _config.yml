@@ -20,7 +20,7 @@ url: https://blog.terencezhong.com
 baseurl: /blog/
 
 # your url: http://USERNAME.github.io
-baseurl: /blog/
+# baseurl: /blog/
 permalink: /:title/
 
 # To enable google analytics, supply your token below
@@ -91,6 +91,7 @@ read-time: true
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
+##
 
 # related posts inside a post?
 related: true

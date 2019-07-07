@@ -5,10 +5,10 @@ layout: page
 title: Archive
 ---
 <section class="list">
-	{% if site.posts.size == 0 %}
+	{% if site.archives.size == 0 %}
 		 <p class="text-center">Nothing published yet!</p>
 	{% elsif site.paginate %}
-		 {% for post in paginator.posts %}
+		 {% for post in paginator.archives %}
 			 {% if post.category == 'archive' %}
 				{% if post.hidden != true %}
 					{% include archive.html %}
@@ -18,7 +18,7 @@ title: Archive
 
 		{% include pagination.html%}
 	{% else %}
-		{% for post in site.posts %}
+		{% for post in site.archives %}
 			{% if post.category == 'archive' %}
 				{% if post.hidden != true %}
 					{% include archive.html %}
