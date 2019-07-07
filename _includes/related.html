@@ -1,16 +1,16 @@
 <div class="related">
     {% assign hasSimilar = '' %}
-    {% for post in site.archives  %}
+    {% for archive in site.archives  %}
         {% assign postHasSimilar = false %}
-        {% for tag in post.tags %}
-            {% for thisTag in page.tags %}
-                {% if postHasSimilar == false and hasSimilar.size < 5 and post != page and tag == thisTag %}
+        {% for tag in archive.tags %}
+            {% for thisTag in archive.tags %}
+                {% if postHasSimilar == false and hasSimilar.size < 5 and archive != page and tag == thisTag %}
                     {% if hasSimilar.size == 0 %}
                     <h4>Related Posts</h4>
                     <ul>
                     {% endif %}
                     <li class="relatedPost">
-                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+                        <a href="{{ site.url }}{{ post.url }}">{{ archive.title }}
                         {% if post.series %}
                             (Series: {{ post.series }})
                         {% endif %}
