@@ -16,7 +16,12 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
+<<<<<<< HEAD
 url: https://blog.terencezhong.com
+=======
+url: http://blog.terencezhong.com
+baseurl: /blog/
+>>>>>>> b1c1b3c9bea2ed97e4c72e05b33f84fe52ef141f
 # your url: http://USERNAME.github.io
 baseurl: /blog/
 permalink: /:title/
@@ -109,7 +114,7 @@ plugins:
     - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+#     base_url: https://github.com
 
 compress_html:
     ignore:
