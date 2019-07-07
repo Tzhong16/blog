@@ -5,10 +5,10 @@ date: 2019-06-26 08:44
 # image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-    - markdown
-    - elements
+    - fontend
+    - dom
 star: true
-category: blog
+category: archive
 author: terence
 description: Introduction of dom manipulation
 ---
