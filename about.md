@@ -35,5 +35,5 @@ layout: page
 <ul>
 	<li><a href="https://thawing-river-90017.herokuapp.com">To do list</a></li>
 	<li><a href="https://evening-lake-97621.herokuapp.com">User Form</a></li>
-	<li><a href="https://guarded-shore-84777.herokuapp.com/movies">Vidly App</li>
+	<li><a href="https://guarded-shore-84777.herokuapp.com/movies">Vidly App</a></li>
 </ul>

@@ -1,6 +1,6 @@
 # main text of home
 name: Terence Zhong
-bio: A Man who develops software with coffee
+bio: A Man who develops software with JS
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -14,10 +14,10 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: assets/resume.pdf
+resume-url: https://blog.terencezhong.com/assets/resume.pdf 
 
 url: https://blog.terencezhong.com
-baseurl: /blog/
+baseurl: ''
 
 # your url: http://USERNAME.github.io
 # baseurl: /blog/
@@ -58,7 +58,7 @@ email: t.zhong16@gmail.com
 authors:
     terencezhong:
         name: Terence Zhong
-        bio: A Man who develops software with coffee
+        bio: A Man who develops software with JS
         external-image: false
         picture: assets/images/profile.jpg
         # twitter: johndoe
