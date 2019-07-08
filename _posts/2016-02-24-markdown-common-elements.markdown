@@ -10,6 +10,7 @@ tag:
 # star: true
 archives: true
 category: archive
+visible: 1
 author: johndoe
 description: Markdown summary with different options
 ---

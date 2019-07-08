@@ -9,6 +9,7 @@ tag:
     - components
     - extra
 category: archive
+visible: 1
 archives: true
 author: jamesfoster
 description: Markdown summary with different options
