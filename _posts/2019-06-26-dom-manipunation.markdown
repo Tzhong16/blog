@@ -7,7 +7,7 @@ headerImage: false
 tag:
     - fontend
     - dom
-star: true
+# star: true
 category: archive
 archives: true
 author: terence
