@@ -24,8 +24,10 @@ $("<tag_name>") // by tag
 $("li")
 
 $("<class_name>") // by class
-$(".promo")
+$(".prom")
+
 {% endhighlight %}
+
 
 ### More complex CSS selector
 
@@ -67,6 +69,8 @@ $("#destination li:even")
 > traversing the dom is a bit faster 
 
 - find("css_selector_name")
+- closest("css_selector_name")
+- filter("css_selector_name")
 - next( )
 - prev( )
 - parent( )
