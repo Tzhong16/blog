@@ -20,10 +20,10 @@ description: jQuery Event Handling
 - Keyboard Event
 - Form Event
 
-![Markdowm Image][https://github.com/Tzhong16/blog/tree/gh-pages/assets/images/keyboardandformevent.jpeg]
+![Markdowm Image][https://github.com/Tzhong16/blog/blob/gh-pages/assets/images/keyboardandformevent.jpeg]
 <figcaption class="caption">Keyboard and Form Event</figcaption>
 
-![Markdowm Image][https://github.com/Tzhong16/blog/tree/gh-pages/assets/images/mouseevent]
+![Markdowm Image][/assets/images/keyboardandformevent.jpeg]
 <figcaption class="caption">Mouse Event</figcaption>
 
 

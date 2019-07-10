@@ -20,7 +20,7 @@ layout: page
 	<li>CSS Frameworks (Bootstrap)</li>
 	<li>Javascript (Design Patterns, Testes)</li>
 	<li>NodeJS - ExpressJS</li>
-	<li>ReactJS Redux</li>
+	<li>ReactJS - Redux</li>
 	<li>NPM</li>
 	<li>Git</li>
 	<li>RESTful API</li>
