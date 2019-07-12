@@ -15,20 +15,22 @@ description: jQuery Event Handling
 ---
 
 ### Major event type in jQuery
+----
 
 - Mouse Event
 - Keyboard Event
 - Form Event
 
-![Markdowm Image][https://github.com/Tzhong16/blog/blob/gh-pages/assets/images/keyboardandformevent.jpeg]
+![][/assets/images/post/keyboardandformevent.png]
 <figcaption class="caption">Keyboard and Form Event</figcaption>
 
-![Markdowm Image][/assets/images/keyboardandformevent.jpeg]
+![][/assets/images/post/mouseevent.png]
 <figcaption class="caption">Mouse Event</figcaption>
 
 
 
 ### Event delegation
+----
 
   {% highlight html %}
    $(document).on('click', 'button', function(){

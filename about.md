@@ -4,9 +4,10 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Welcome to my blog, my name is 钟志杰 (Zhijie Zhong). I am living in wellington, New Zealand. A compact city with a powerful mix of culture, history, nature and cuisine. I am a self-taught developer and I have a strong interest in anything related to web development.</p>
+<p>Welcome to my blog! My name is 钟志杰 (Zhijie Zhong). I am living in wellington, New Zealand. A compact city with a powerful mix of culture, history, nature and cuisine. I am a self-taught developer and I have a strong interest in anything related to web development.
+</p>
 
-<p>I like exploring new things in my life. I love Japanese animation cartoon, expecially One Piece. I love outdoor activity as well, I like fishing and hiking with my friends. I do like music and planning to learn one musical instrument in the future.</p>
+<p>I like exploring new things in my life. I love Japanese animation cartoons, expecially One Piece. I love outdoor activitities as well and I like fishing and hiking with my friends. I do like music and planning to learn one musical instrument in the future.</p>
 
 
 
