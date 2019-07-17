@@ -12,6 +12,7 @@ category: archive
 archives: true
 author: terence
 description: Introduction of jQuery selector
+comments: true
 ---
 
 ### CSS selector in jQuery
@@ -28,15 +29,14 @@ $(".prom")
 
 {% endhighlight %}
 
-
 ### More complex CSS selector
 
-1. Descendant selector 
+1. Descendant selector
 
 {% highlight raw %}
 // #destination is parent, li tag is descendant
 //all li tags within #destination will show
-$("#destination li")
+\$("#destination li")
 
 {% endhighlight %}
 
@@ -44,13 +44,13 @@ $("#destination li")
 
 {% highlight raw %}
 //Compare to descendant selector
-$("#destination > li") //only direct child of destination will show
+\$("#destination > li") //only direct child of destination will show
 {% endhighlight %}
 
 3. Multiple selector
 
 {% highlight raw %}
-$("#france, .promo") 
+\$("#france, .promo")
 {% endhighlight %}
 
 4. Pseudo selector
@@ -66,15 +66,15 @@ $("#destination li:even")
 
 ### Traversing the DOM
 
-> traversing the dom is a bit faster 
+> traversing the dom is a bit faster
 
-- find("css_selector_name")
-- closest("css_selector_name")
-- filter("css_selector_name")
-- next( )
-- prev( )
-- parent( )
-- parents( ) **#all parents**
-- children( ) **#only direct children**
-- data("css_selector_name") **#select custom attribute value**
-- filter("css_selector_name") 
+-   find("css_selector_name")
+-   closest("css_selector_name")
+-   filter("css_selector_name")
+-   next( )
+-   prev( )
+-   parent( )
+-   parents( ) **#all parents**
+-   children( ) **#only direct children**
+-   data("css_selector_name") **#select custom attribute value**
+-   filter("css_selector_name")

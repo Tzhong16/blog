@@ -13,6 +13,7 @@ category: archive
 published: false
 author: johndoe
 description: Markdown summary with different options
+comments: true
 ---
 
 ## Basic formatting

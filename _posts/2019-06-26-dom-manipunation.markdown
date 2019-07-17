@@ -12,6 +12,7 @@ category: archive
 archives: true
 author: terence
 description: Introduction of dom manipulation
+comments: true
 ---
 
 ## Outline

@@ -12,35 +12,36 @@ category: archive
 archives: true
 author: terence
 description: jQuery DOM Manipulation
+comments: true
 ---
 
 ### DOM’s element manipulation in jQuery
 
-- append( )
-- prepend( )
-- after( )
-- before( )
+-   append( )
+-   prepend( )
+-   after( )
+-   before( )
 
 ### DOM’s class manipulation in jQuery
 
-- addClass( )
-- removeClass( )
-- toggleClass( )
-- hasClass( )
+-   addClass( )
+-   removeClass( )
+-   toggleClass( )
+-   hasClass( )
 
 ### DOM’s CSS manipulation in jQuery
 
-- css( )
+-   css( )
 
-  {% highlight html %}
-   $(this).find('.price').css('dispaly', 'block')
+    {% highlight html %}
+    \$(this).find('.price').css('dispaly', 'block')
 
-   $(this).find('.price').css({'background-color': '#252b30', 'border-color': '1px solid #967'})
-  {% endhighlight %}
+    \$(this).find('.price').css({'background-color': '#252b30', 'border-color': '1px solid #967'})
+    {% endhighlight %}
 
-- animate( )
+-   animate( )
 
-   animate method can manager css style form current sytle to other sytle
+    animate method can manager css style form current sytle to other sytle
 
 {% highlight html %}
 if(<vacation has the class highlighted>){
@@ -50,16 +51,15 @@ $(this).animate({'top':'0px'})
 }
 {% endhighlight %}
 
-
 ### 'this' in jQuery and data()
 
-- `this` in jQuery should wrap in $(), then the element will convert to jQuery object
+-   `this` in jQuery should wrap in \$(), then the element will convert to jQuery object
 
-- data( ) 
-  Use when you want to get the custom attribute value from element
+-   data( )
+    Use when you want to get the custom attribute value from element
 
 {% highlight javascript %}
-// assume custom attribute is data-US = "200" 
+// assume custom attribute is data-US = "200"
 // the + sign is used to convert the value into number
- const usValue= +("#destination").first()data('US')
+const usValue= +("#destination").first()data('US')
 {% endhighlight %}
