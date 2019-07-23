@@ -18,28 +18,28 @@ comments: true
 ### Other selectors in CSS
 
 -   Descendant selector
-    {% highlight html %}
+    {% highlight css %}
     div p {
     background-color:#ddddaa;
     }
     {% endhighlight %}
 
 -   Child selector
-    {% highlight html %}
+    {% highlight css %}
     div > p{
     background-color: #ddddaa;
     }
     {% endhighlight %}
 
 -   Attribute selector
-    {% highlight html %}
+    {% highlight css %}
     img[alt=spacer]{
     padding:0px;
     }
     {% endhighlight %}
 
 -   Psuedo class
-    {% highlight html %}
+    {% highlight css %}
     a:visited {
     color: #dddddd;
     }
@@ -50,6 +50,10 @@ comments: true
 ### Ordering Rules
 
     !important >inline > id > class 后(in style) >class 前> body > :root
+
+## Specificity
+
+![][1]
 
 ### Inheritance
 
@@ -63,54 +67,20 @@ Note that not every property can be inheritable, such as `border, margins, paddi
 
 ## Border, Margin, Padding
 
-![][/assets/images/post/boxmodel.png]
+![][2]
 
  <figcaption class="caption">Box model</figcaption>
 
 ## Vertical margins collapse
 
-    When top and bottom margins meet, they will overlap. This only happen in vertical margins. Which mean horizontally margins do not apply.
+> Horizontally margins do not collapse
 
-    ![][/assets/images/post/maginsoverlap.png]
-            <figcaption class="caption">Margins Overlap</figcaption>
+When top and bottom margins meet, they will overlap. This only happen in vertical margins. Which mean horizontally margins do not apply.
 
-### Some tricks in CSS
+![][3]
 
--   Hide dot sign of unorder list
+<figcaption class="caption">Margins Overlap</figcaption>
 
-         {% highlight html %}
-            ul{
-                list-style-type: none;
-                //or
-                // list-style: none;
-            }
-          {% endhighlight %}
-
--   Width only apply to the `content` of the box
-
--   Some normal font family:
-
-    1. serif (default, common in News post)
-    2. sans-serif (common in most web content)
-    3. monosplace (good for code website)
-    4. arial
-
--   `text-decoration: none;` remove the underline of anchor elemnt
-
--   Display property
-    Every HTML element has **display property**, the value can be set with `block, inline, none`.
-
-    When use `display: inline;`, the width setting for each element wouldn't be affect. As we can't set width for inline elements (span, input). Instead, we can see `display: inline-block;` to solve the problem.
-
-    ![][/assets/images/post/displayandvisibility.png]
-
-    <figcaption class="caption">Display property</figcaption>
-
-*   Display VS Visibility
-
-    `display: none;` can remove all the whole element with its space and content.
-    `visibility: hidden;` only hide the element but keep its space and content area.
-
-*   Float and Clear
-    `float` can stack the element in same line if there is enough room
-    `clear` can remove the element floating to other element, common use is `clear: both;`
+[1]: ../assets/images/post/specificity.png
+[2]: ../assets/images/post/boxmodel.png
+[3]: ../assets/images/post/maginsoverlap.png

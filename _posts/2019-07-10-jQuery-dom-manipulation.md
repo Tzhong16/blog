@@ -61,5 +61,5 @@ $(this).animate({'top':'0px'})
 {% highlight javascript %}
 // assume custom attribute is data-US = "200"
 // the + sign is used to convert the value into number
-const usValue= +("#destination").first()data('US')
+const usValue= +("#destination").first().data('US')
 {% endhighlight %}
