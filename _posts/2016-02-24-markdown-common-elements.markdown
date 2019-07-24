@@ -67,7 +67,7 @@ There are six levels of headings. They correspond with the six levels of HTML he
 1. Item 1
 2. A second item
 3. Number 3
-   {% endhighlight %}
+    {% endhighlight %}
 
 ### Unordered list
 
